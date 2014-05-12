@@ -55,7 +55,6 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label">
 				<description>Title label</description>
@@ -68,7 +67,6 @@
 				<aligny>center</aligny>
 				<font>font13_title</font>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label">
 				<description>Time Label</description>
@@ -81,7 +79,6 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
 			</control>
 		</control>
 		<!-- LiveTV Info -->
@@ -95,13 +92,6 @@
 			<control type="group">
 				<animation effect="slide" start="0,0" end="0,100" time="0" condition="PVR.IsRecording">conditional</animation>
 				<visible>PVR.HasNonRecordingTimer</visible>
-				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
-					<width>490</width>
-					<height>90</height>
-					<texture>gradient.png</texture>
-				</control>
 				<control type="image">
 					<posx>400</posx>
 					<posy>0</posy>
@@ -131,7 +121,6 @@
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<textcolor>blue</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>NextRecordingDateTime</description>
@@ -144,7 +133,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<scroll>true</scroll>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>NextRecordingTitle Channel</description>
@@ -156,19 +144,11 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
 				</control>
 			</control>
 			<control type="group">
 				<visible>PVR.IsRecording</visible>
-				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
-					<width>490</width>
-					<height>90</height>
-					<texture>gradient.png</texture>
-				</control>
 				<control type="image">
 					<posx>400</posx>
 					<posy>0</posy>
@@ -198,7 +178,6 @@
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<textcolor>blue</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>NextRecordingDateTime</description>
@@ -211,7 +190,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<scroll>true</scroll>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>NextRecordingTitle Channel</description>
@@ -223,7 +201,6 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
 				</control>
 			</control>
@@ -259,7 +236,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -272,7 +248,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -299,7 +274,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -312,7 +286,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -325,7 +298,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -352,7 +324,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -365,7 +336,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -378,7 +348,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -405,7 +374,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -418,7 +386,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -431,7 +398,6 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
 		</control>
@@ -795,13 +761,6 @@
 				<height>75</height>
 				<texture border="0,6,0,6">HomeBack.png</texture>
 			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>5</posy>
-				<width>1280</width>
-				<height>6</height>
-				<texture>HomeOverlay1.png</texture>
-			</control>
 			<control type="fixedlist" id="9000">
 				<posx>-110</posx>
 				<posy>5</posy>
@@ -957,20 +916,6 @@
 						<thumb>-</thumb>
 					</item>
 				</content>
-			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>6</posy>
-				<width>128</width>
-				<height>50</height>
-				<texture>SideFade.png</texture>
-			</control>
-			<control type="image">
-				<posx>128r</posx>
-				<posy>6</posy>
-				<width>128</width>
-				<height>60</height>
-				<texture flipx="true">SideFade.png</texture>
 			</control>
 		</control>
 		<control type="group" id="9002">
@@ -1132,7 +1077,6 @@
 				<aligny>center</aligny>
 				<font>font10</font>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
 				<label>$INFO[Window(Weather).Property(Location)]</label>
 			</control>
 			<control type="grouplist">
@@ -1151,7 +1095,6 @@
 					<aligny>center</aligny>
 					<font>font28_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
 				</control>
 				<control type="label">
@@ -1162,7 +1105,6 @@
 					<aligny>center</aligny>
 					<label>$INFO[System.TemperatureUnits]</label>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
 					<visible>!IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
 				</control>
 				<control type="label">
@@ -1173,7 +1115,6 @@
 					<aligny>center</aligny>
 					<label>$INFO[Window(Weather).Property(Current.Condition),  ]</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
 		</control>
@@ -1188,7 +1129,6 @@
 			<aligny>center</aligny>
 			<font>font10</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
 			<label>$INFO[System.Date]</label>
 			<include>Window_OpenClose_Animation</include>
 			<animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
