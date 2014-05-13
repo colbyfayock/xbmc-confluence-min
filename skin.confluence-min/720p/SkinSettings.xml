@@ -7,7 +7,6 @@
 			<posy>100r</posy>
 			<width>1280</width>
 			<height>100</height>
-			<texture>floor.png</texture>
 			<include>VisibleFadeEffect</include>
 		</control>
 		<control type="image">

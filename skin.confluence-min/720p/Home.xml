@@ -10,7 +10,6 @@
 			<posy>90r</posy>
 			<width>1280</width>
 			<height>90</height>
-			<texture>floor.png</texture>
 			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -455,8 +454,8 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="5">HomeSubFO.png</texturefocus>
-				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
+				<texturefocus flipy="true">HomeSubFO.png</texturefocus>
+				<texturenofocus flipy="true">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>137</label>
 				<onclick>RunScript(script.globalsearch)</onclick>
@@ -480,7 +479,7 @@
 					<posy>0</posy>
 					<width>205</width>
 					<height>35</height>
-					<texture flipy="true" border="0,5,0,0">HomeSubNF.png</texture>
+					<texture flipy="true">HomeSubNF.png</texture>
 					<colordiffuse>CCFFFFFF</colordiffuse>
 				</control>
 				<control type="group">
@@ -668,8 +667,8 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="5">HomeSubFO.png</texturefocus>
-				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
+				<texturefocus flipy="true">HomeSubFO.png</texturefocus>
+				<texturenofocus flipy="true">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>31008</label>
 				<onclick>fullscreen</onclick>
@@ -759,7 +758,7 @@
 				<posy>0</posy>
 				<width>1480</width>
 				<height>75</height>
-				<texture border="0,6,0,6">HomeBack.png</texture>
+				<texture>HomeBack.png</texture>
 			</control>
 			<control type="fixedlist" id="9000">
 				<posx>-110</posx>
