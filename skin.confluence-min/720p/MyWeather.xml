@@ -69,13 +69,6 @@
 					<texture border="20">ContentPanel.png</texture>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>612</posy>
-					<width>500</width>
-					<height>64</height>
-					<texture border="10">ContentPanelMirror.png</texture>
-				</control>
-				<control type="image">
 					<posx>20</posx>
 					<posy>5</posy>
 					<width>460</width>
@@ -373,13 +366,6 @@
 					<width>650</width>
 					<height>620</height>
 					<texture border="20">ContentPanel.png</texture>
-				</control>
-				<control type="image">
-					<posx>0</posx>
-					<posy>612</posy>
-					<width>650</width>
-					<height>64</height>
-					<texture border="10">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<posx>20</posx>
@@ -702,13 +688,6 @@
 					<width>650</width>
 					<height>620</height>
 					<texture border="20">ContentPanel.png</texture>
-				</control>
-				<control type="image">
-					<posx>0</posx>
-					<posy>612</posy>
-					<width>650</width>
-					<height>64</height>
-					<texture border="10">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<posx>20</posx>
