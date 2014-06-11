@@ -334,10 +334,10 @@
 						<width>120</width>
 						<height>160</height>
 						<aspectratio>stretch</aspectratio>
-						<bordertexture border="5" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
 						<fadetime>200</fadetime>
-						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
+						<texture background="true" flipy="true">$VAR[PosterThumb]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="310" width="120">
@@ -360,10 +360,10 @@
 						<width>120</width>
 						<height>160</height>
 						<aspectratio>stretch</aspectratio>
-						<bordertexture border="5" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
 						<fadetime>200</fadetime>
-						<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
+						<texture background="true" flipy="true">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="image">
 						<posx>90</posx>

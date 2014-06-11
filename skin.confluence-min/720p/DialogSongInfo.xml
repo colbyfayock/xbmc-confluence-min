@@ -18,14 +18,6 @@
 				<height>510</height>
 				<texture border="40">DialogBack.png</texture>
 			</control>
-			<control type="image">
-				<description>Dialog Header image</description>
-				<posx>40</posx>
-				<posy>16</posy>
-				<width>830</width>
-				<height>40</height>
-				<texture>dialogheader.png</texture>
-			</control>
 			<control type="label">
 				<description>header label</description>
 				<posx>40</posx>
@@ -83,7 +75,7 @@
 				<width>200</width>
 				<height>200</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
+				<texture flipy="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="group">
 				<posx>250</posx>

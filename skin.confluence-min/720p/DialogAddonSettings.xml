@@ -25,14 +25,6 @@
 			<texture border="40">DialogBack2.png</texture>
 			<visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
 		</control>
-		<control type="image">
-			<description>Dialog Header image</description>
-			<posx>40</posx>
-			<posy>16</posy>
-			<width>720</width>
-			<height>40</height>
-			<texture>dialogheader.png</texture>
-		</control>
 		<control type="label" id="20">
 			<description>header label</description>
 			<posx>40</posx>

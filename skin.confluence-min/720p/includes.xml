@@ -968,7 +968,7 @@
 				<width>170</width>
 				<height>110</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
+				<texture flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="label">
 				<posx>91</posx>
@@ -1011,7 +1011,7 @@
 				<width>170</width>
 				<height>110</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
+				<texture flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="label">
 				<posx>91</posx>
